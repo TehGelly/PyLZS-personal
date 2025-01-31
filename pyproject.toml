@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "LZS"
+version = "0.0.1"
+requires-python = ">=3.8"
+authors = [
+     {name = "Robert Gelhar"},
+]
+description = "Module for Lempel-Ziv-Stac/Stacker compression/decompression"
+readme = "README.md"
+keywords = ["lzs", "compression", "stacker"]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
